@@ -15,4 +15,5 @@ jobs:
       - name: Redeploy nginx
         run: |
           kubectl apply -f nginx/deployment.yaml
+          ###
      

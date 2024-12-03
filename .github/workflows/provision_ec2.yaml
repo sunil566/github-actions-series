@@ -1,5 +1,5 @@
 name: Provision t3.micro EC2
-
+#
 on:
   workflow_dispatch:
     inputs:
@@ -36,4 +36,5 @@ jobs:
           terraform validate
           terraform plan 
           terraform apply -auto-approve
+          ### Addd 
      
